@@ -9,7 +9,7 @@ document.querySelector(".roll").addEventListener("click", () => {
   ];
 
   var diceLeft = diceImg[Math.floor(Math.random() * 6)];
-  document.querySelector(".img1").setAttribute("src", "../images/" + diceLeft);
+  document.querySelector(".img1").setAttribute("src", "../images/" + "dice2.png");
   var diceRight = diceImg[Math.floor(Math.random() * 6)];
   document.querySelector(".img2").setAttribute("src", "../images/" + diceRight);
 
