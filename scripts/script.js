@@ -8,10 +8,8 @@ document.querySelector(".roll").addEventListener("click", () => {
     "dice6.png",
   ];
 
-  var diceLeft = diceImg[Math.floor(Math.random() * 6)];
-  document.querySelector(".img1").setAttribute("src", "../images/" + "dice2.png");
-  var diceRight = diceImg[Math.floor(Math.random() * 6)];
-  document.querySelector(".img2").setAttribute("src", "../images/" + diceRight);
+  document.querySelector(".img1").setAttribute("src", "../images/" + diceImg[Math.floor(Math.random() * 6)]);
+  document.querySelector(".img2").setAttribute("src", "../images/" + diceImg[Math.floor(Math.random() * 6)]);
 
   var flagWinner = document.querySelector("h1");
   if (diceLeft > diceRight) {
