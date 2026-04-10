@@ -9,7 +9,7 @@ document.querySelector(".roll").addEventListener("click", () => {
   ];
 
   document.querySelector(".img1").src = "../images/" + diceImg[Math.floor(Math.random() * 6)];
-  documentlector(".img2").src = "../images/" + diceImg[Math.floor(Math.random() * 6)];
+  document.querySelector(".img2").src = "../images/" + diceImg[Math.floor(Math.random() * 6)];
 
   var flagWinner = document.querySelector("h1");
   if (diceLeft > diceRight) {
